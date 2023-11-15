@@ -1,0 +1,43 @@
+{
+    "data": {
+      "getTask": {
+        "id": "0x3",
+        "title": "GraphQL docs example",
+        "completed": true,
+        "user": {
+          "username": "dgraphlabs",
+          "name": "Dgraph Labs"
+        }
+      }
+    },
+    "extensions": {
+      "touched_uids": 9,
+      "tracing": {
+        "version": 1,
+        "startTime": "2020-07-29T05:54:27.784837196Z",
+        "endTime": "2020-07-29T05:54:27.787239465Z",
+        "duration": 2402299,
+        "execution": {
+          "resolvers": [
+            {
+              "path": [
+                "getTask"
+              ],
+              "parentType": "Query",
+              "fieldName": "getTask",
+              "returnType": "Task",
+              "startOffset": 122073,
+              "duration": 2255955,
+              "dgraph": [
+                {
+                  "label": "query",
+                  "startOffset": 171684,
+                  "duration": 2154290
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
